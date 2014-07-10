@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 	android:orientation="vertical" android:layout_width="fill_parent"
-	android:layout_height="fill_parent" android:gravity="center"
+	android:layout_height="fill_parent" 
 	android:background="@drawable/gray">
 	<TextView android:id="@+id/testdata" android:layout_height="wrap_content"
 		android:layout_width="wrap_content" android:paddingTop="5dp"
 		android:layout_gravity="top" android:textColor="@drawable/white_text"
 		android:paddingLeft="10dip" android:paddingRight="2dip"
-		android:paddingBottom="60dp" android:textSize="17sp"
+		 android:textSize="17sp"
 		android:text="@string/aro_usetestdata"></TextView>
 	    <!-- android:text="Chronometer" /> -->
 
@@ -26,19 +26,19 @@
 	    android:layout_marginLeft="8dp"
 	    android:layout_marginRight="8dp"
 	    android:background="@drawable/white"
-	    android:paddingBottom="60dip"
+
 	    android:paddingLeft="10dip"
 	    android:paddingRight="2dip"
 	    android:paddingTop="5dip"
-	    android:text="@string/aro_dcstarted"
+	    android:text="Doug Rocks!"
 	    android:textColor="@drawable/black"
 	    android:textSize="16sp" />
 
 	<LinearLayout
 	    android:layout_width="fill_parent"
-	    android:layout_height="fill_parent"
-	    android:gravity="center"
-	    android:orientation="horizontal" >
+	    android:layout_height="wrap_content"
+
+	    android:orientation="vertical" >
 
 	    <Button
 	        android:id="@+id/hidedatacollector"
